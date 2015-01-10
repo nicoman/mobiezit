@@ -1,9 +1,9 @@
 Install
 =======
 
-aptitude install virtualenvwrapper
-mkvirtualenv mobiezit
-pip install -r requirements/development.txt
+    aptitude install virtualenvwrapper
+    mkvirtualenv mobiezit
+    pip install -r requirements/development.txt
 
 You need to add to $VIRTUAL_ENV/bin two file:
 
