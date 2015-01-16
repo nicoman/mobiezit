@@ -7,14 +7,15 @@ Install
 
 You need to add to $VIRTUAL_ENV/bin two file:
 
-- postactivate 
-    
+$VIRTUAL_ENV/bin/postactivate
+
     #!/bin/bash
     # This hook is run after every virtualenv is activated.
     export DJANGO_SETTINGS_MODULE="mobiezit.settings.development"
     export SECRET_KEY="your_secret_key"
-
-- predeactivate
+    
+    
+$VIRTUAL_ENV/bin/predeactivate
 
     #!/bin/bash
     # This hook is run before every virtualenv is deactivated.
